@@ -1,0 +1,24 @@
+/* style.css */
+
+/* Общие стили для всей страницы */
+body {
+  font-family: Arial, sans-serif; /* Шрифт */
+  line-height: 1.6; /* Межстрочный интервал */
+  color: #333; /* Цвет текста */
+  max-width: 800px; /* Максимальная ширина контента */
+  margin: 0 auto; /* Центрирование страницы */
+  padding: 20px; /* Отступы от края */
+  background-color: #f4f4f6 /* Цвет фона */
+}
+
+/* Стилизация заголовка */
+h2 {
+  color: #FA8072;
+}
+
+/* Стилизация абзаца */
+p {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px; /* Скругление углов */
+}

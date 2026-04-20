@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа1</title>
+    <!-- Подключение внешнего CSS файла -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="/handler.php" method="post">
+    <h2>Форма для заказа пиццы</h2>
+    <fieldset>
+            <label for="pizza">Выберите пиццу:</label><br>
+            <select name="pizza" id="pizza" size="4">
+                <option value="Pepperoni">Пепперони</option>
+                <option value="Margarita">Маргарита</option>
+                <option value="Cheese">Четыре сыра</option>
+                <option value="Gavaiskaya">Гавайская</option>
+            </select>
+        <p>
+            <label for="toppings">Выберите добавки:</label><br>
+            <select name="toppings" id="toppings" multiple size="4">
+                <option value="Mushrooms">Грибы</option>
+                <option value="Red_onion">Красный лук</option>
+                <option value="Extra_cheese">Сыр</option>
+                <option value="Jalapeño">Халапеньо</option>
+            </select>
+        </p>
+
+        <p>Выберите напиток:</p>
+        <label><input type="radio" value="Cola" name="beverages">Кола</label>
+        <label><input type="radio" value="Mors" name="beverages">Морс</label>
+        <label><input type="radio" value="Coffee" name="beverages">Кофе</label>
+
+        <p>
+            <label for="devices">Добавить приборы:</label>
+            <input type="checkbox" id="devices" name="devices">
+        </p>
+
+        <p>
+            <label for="client-name">Имя:</label>
+            <input type="text" id="client-name" name="name">
+        </p>
+        <p>
+            <label for="client-address">Адрес:</label>
+            <input type="text" id="client-address" name="address">
+        </p>
+        <p><textarea>Ваш комментарий</textarea></p>
+        <button type="submit">Отправить заявку</button>
+    </fieldset>
+</form>
+</body>
+</html>
